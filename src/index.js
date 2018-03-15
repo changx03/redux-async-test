@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import reduxThunk from 'redux-thunk';
-import { counterReducer, resultReducer } from './store/index';
+import { counterReducer, resultReducer } from './store';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
